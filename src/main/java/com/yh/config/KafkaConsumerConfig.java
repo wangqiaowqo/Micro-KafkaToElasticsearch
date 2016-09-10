@@ -7,7 +7,7 @@ package com.yh.config;
 public class KafkaConsumerConfig {
 
     public static final String BOOTSTRAP_SERVERS = "10.1.54.182:9092";
-    public static final String GROUP_ID = "a5";
+    public static final String GROUP_ID = "service02";
     public static final String MAX_POLL_RECORDS = "1000";
     public static final String AUTO_OFFSET_RESET = "earliest";
     public static final String ENABLE_AUTO_COMMIT = "true";

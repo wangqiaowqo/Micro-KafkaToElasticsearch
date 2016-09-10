@@ -83,11 +83,11 @@ public class ESService implements ESServiceImpl {
     /**
      * 模版批量插入
      */
-  /* public <T> boolean batchInsertOrUpdate(List<T> list) {
+  /* public <T> boolean batchInsertOrUpdate(List<T> invetoryList) {
         List<IndexQuery> queries = new ArrayList<IndexQuery>();
         // 转化
         @SuppressWarnings("unchecked")
-        final List<ESInvetory> esInvetoryList = (List<ESInvetory>) list;
+        final List<ESInvetory> esInvetoryList = (List<ESInvetory>) invetoryList;
 
         for (ESInvetory esInvetory : esInvetoryList) {
             IndexQuery indexQuery = new IndexQueryBuilder().withId(esInvetory.getKey()).withObject(esInvetory).build();
